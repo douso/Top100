@@ -73,6 +73,9 @@ body {
 .header .bottom-box h4 a {
     color: #fff;
     text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .main {
     width: 1000px;
@@ -111,6 +114,9 @@ body {
 }
 .main ul li .content h4 {
     font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .main ul li .content h4 a {
     color: #000;
@@ -157,4 +163,18 @@ body {
     margin: 0 auto;
     font-size: 12px;
     text-align: center;
+}
+
+.star {
+    margin-left: 10px;
+    font-size: 12px !important;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal !important;
+}
+.star img {
+    width: 12px;
+    margin-right: 3px;
 }

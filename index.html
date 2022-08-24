@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOP100</title>
+    <title>TOP N</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/data.js"></script>
@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <div class="top-box">
-            <h1>TOP 100</h1>
+            <h1>TOP N</h1>
         </div>
         <div class="category">
             <span data-search="language:javascript+language:css+language:html++language:vue" class="active">前端</span>
@@ -26,7 +26,7 @@
             <span data-search="language:php">PHP</span> -->
         </div>
         <div class="bottom-box">
-            <p class="pic"><img src="img/loading.svg"></p>
+            <p class="pic"><img src="img/gezi.svg"></p>
             <h4><a href="" target="_blank"></a></h4>
             <p class="desc"></p>
         </div>
@@ -35,6 +35,10 @@
         <ul>
            
         </ul>
+    </div>
+    <div class="more">
+        <span style="display:none">加载更多</span>
+        <img style="display:none" src="img/loading.svg">
     </div>
     <div class="footer">
         <p>数据来自 <a>Github</a> 和 <a>Awesomes-cn</a> 每天更新</p>

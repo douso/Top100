@@ -157,8 +157,8 @@ body {
 }
 .footer {
     width: 1000px;
-    height: 120px;
-    line-height: 120px;
+    height: 80px;
+    line-height: 80px;
     color: #666;
     margin: 0 auto;
     font-size: 12px;
@@ -177,4 +177,23 @@ body {
 .star img {
     width: 12px;
     margin-right: 3px;
+}
+.more {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0;
+}
+.more span {
+    font-size: 14px;
+    padding: 5px 50px;
+    background: #343434;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.more img {
+    width: 30px;
+    height: 30px;
 }
